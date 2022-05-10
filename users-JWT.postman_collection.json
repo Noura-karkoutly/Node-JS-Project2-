@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "af422998-b807-464f-8553-860f45ffef34",
+		"name": "users-JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJuYW1lIjoiSmhvbiIsImVtYWlsIjoiam9obkBnbWFpbC5jb20ifSwiaWF0IjoxNjUyMTg4ODk0fQ.NSyR5v3HIFxnFQ-rBt8LZEVDKbhH3LPHvZwE-1-Qtqs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/posts?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"posts"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/posts ",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJuYW1lIjoiSmhvbiIsImVtYWlsIjoiam9obkBnbWFpbC5jb20ifSwiaWF0IjoxNjUyMTg4ODk0fQ.NSyR5v3HIFxnFQ-rBt8LZEVDKbhH3LPHvZwE-1-Qtqs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/posts ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"posts "
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
